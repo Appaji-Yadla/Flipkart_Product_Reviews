@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0B0C10; /* Background color for the layout */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: #FAF4E4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Adjust the width as needed */
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 150px; /* Adjust the height as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #0f0404;
+    resize: none;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+input[type="submit"] {
+    width: 100px; /* Adjust the width as needed */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #0c0c0c;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #33b249;
+}
+
+input[type="button"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #0c0c0c; /* Red color for Clear button */
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #33b249; /* Darker red color on hover */
+}
+
+.output {
+    margin-top: 20px;
+}
